@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navcolor {
+    background-color: rgb(0, 0, 0) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.pcs {
+    height: 90px;
+}
+
+.linkcolor {
+    color: aqua !important;
+    font-size: 30px;
+}
+
+.boton {
+    background-color: aqua !important;
+}
+
+h1, h2, h4 {
+    text-align: center;
+    color: aqua;
+    padding: 10px;
+}
+
+.biografia p {
+    text-align: justify;
+    color: aqua;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: aqua !important;
+    font-size: 25px;
+}
